@@ -40,3 +40,7 @@ If project is Maven,add below content to pom.xml
         </dependency>
     </dependencies>
 ```
+
+## Explanation
+
+It just for study and communication.If you use it with illegal to usage,  I had nothing to do with the matter
