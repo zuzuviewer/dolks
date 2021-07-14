@@ -4,7 +4,7 @@ transfer pdf to docx
 
 ## dependencies
 
-It is depended on spire.doc.free.3.9.0 and spire.pdf.free-4.4.1(https://www.e-iceblue.com/)
+It is depended on spire.office.free.3.9.0 (https://www.e-iceblue.com/).
 
 ## Functions
 
@@ -30,14 +30,9 @@ If project is Maven,add below content to pom.xml
     <dependencies>
         <dependency>
             <groupId>e-iceblue</groupId>
-            <artifactId>spire.pdf.free</artifactId>
-            <version>4.4.1</version>
-        </dependency>
-        <dependency>
-            <groupId> e-iceblue </groupId>
-            <artifactId>spire.doc.free</artifactId>
-            <version>3.9.0</version>
-        </dependency>
+            <artifactId>spire.office.free</artifactId>
+        <version>3.9.0</version>
+    </dependency>
     </dependencies>
 ```
 
