@@ -1,10 +1,10 @@
 # dolks
 
-Transfer pdf to docx
+Transfer pdf to docx,Extract pdf text and images,extract images is unable with free spire dependencies
 
 ## dependencies
 
-It is depended on spire.office.free.3.9.0 (https://www.e-iceblue.com/).
+It is depended on spire.office.free.3.9.0 (https://www.e-iceblue.com/Introduce/free-office-for-java.html).
 
 ## Functions
 
