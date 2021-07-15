@@ -1,6 +1,6 @@
 # dolks
 
-transfer pdf to docx
+Transfer pdf to docx
 
 ## dependencies
 
@@ -10,13 +10,9 @@ It is depended on spire.office.free.3.9.0 (https://www.e-iceblue.com/).
 
 Transfer pdf document to docx document
 
-## Issues
-
-Docx document have watermarked,because it is free.If want docx documents without watermark,you can buy Commercial Edition in https://www.e-iceblue.com/ 
-
 ## Usage
 
-If project is Maven,add below content to pom.xml
+If project is been build by Maven,add below content to pom.xml
 
 ```xml
     <repositories>
