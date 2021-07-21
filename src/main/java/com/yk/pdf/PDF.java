@@ -57,7 +57,7 @@ public class PDF {
                 return;
             }
             for (BufferedImage image : page.extractImages()) {
-                fileName = new StringBuilder().append(outPath).append(fileNamePrefix).append(index).append(".png").toString();
+                fileName = new StringBuilder().append(outPath).append(fileNamePrefix).append(index++).append(".png").toString();
                 output = new File(fileName);
                 ImageIO.write(image, "PNG", output);
             }

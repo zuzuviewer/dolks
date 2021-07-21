@@ -27,8 +27,8 @@ If project is been build by Maven,add below content to pom.xml
         <dependency>
             <groupId>e-iceblue</groupId>
             <artifactId>spire.office.free</artifactId>
-        <version>3.9.0</version>
-    </dependency>
+            <version>3.9.0</version>
+        </dependency>
     </dependencies>
 ```
 
