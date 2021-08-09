@@ -190,5 +190,10 @@ public class PDF {
 
     public void setPdfFile(String pdfFile) {
         this.pdfFile = pdfFile;
+        // 防止改变文件后没有改变文档缓存
+        if (null != pdfDocument) {
+            pdfDocument.close();
+            pdfDocument = null;
+        }
     }
 }
